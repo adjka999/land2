@@ -5,12 +5,18 @@
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
 <link rel='stylesheet' href='style.css'>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
- 
+
 <body>
-    <header>    
+  <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+    <header>
         <nav class="menu">
             <a href="index.html"><img src="img/logo.svg" style="height:56px; margin: 15px;"></a>
             <ul>
@@ -23,20 +29,8 @@
               <li><button class="btn">Замовити дзвінок</button></li>
             </ul>
           </nav>
-          <!-- <div class="main-nav">
-            <nav>
-              <a href="index.html"><img src="https://fiori.ua/wp-content/uploads/2020/06/logo.svg" alt="Fiori" style="height:56px;"></a>
-                <ul>
-                    <li><a href="index.html">Головна</a></li>
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Послуги</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="contact.html">Контакти</a></li>
-                </ul>
-            </nav>
-          </div> -->
     </header>
- 
+
     <div class="container">
 
         <div class="main">
@@ -85,32 +79,31 @@
 
         <div class="container-fluid">
             <div class="row" id="row">
- 
+
                 <main role="main" class="person_list">
                     <div class="pt-8 pb-2 mb-3 border-bottom">
- 
+
                         <div class="row">
                             <p class="team">Наша команда</p>
                         </div>
- 
+
                         <div class="row">
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-1">
                                 </div>
- 
+
                                 <div class="card-person-content">
                                     <div class="card-person-content-head">
                                         <a href="#">
                                             <h3 class="card-person-title">Світлана</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-2">
@@ -120,12 +113,11 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Аліна</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-3">
@@ -135,12 +127,11 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Лілія</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-4">
@@ -150,12 +141,11 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Марта</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-5">
@@ -165,12 +155,11 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Оксана</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-6">
@@ -180,12 +169,11 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Ярина</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-7">
@@ -195,12 +183,11 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Леся</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                             <!-- person Card Start -->
                             <div class="card-view">
                                 <div class="card-header kindergartener-8">
@@ -210,15 +197,14 @@
                                         <a href="#">
                                             <h3 class="card-person-title">Олена</h3>
                                         </a>
-                                        <button class="btn">Мені цікаво спробувати</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- person Card End -->
- 
+
                         </div>
                     </div>
- 
+
                 </main>
 
             </div>
@@ -310,13 +296,42 @@
                     <img src="img/photo.svg" alt="" style="width: 156px; height: 156px;">
                     <img src="img/girl.png" alt="" style="height: 523px; width: 371px; left: 192px; top: 129.9px;">
                     <img src="img/circle.svg" alt="" style="width: 450px; bottom: 350px; left: 192px; top: 129.9px;" >
-                    <img src="img/_ (1).svg" alt="" style="position: relative; z-index: 9999; ; width: 70px; height: 32px; left: -30px; top: 310.2px;">
+                    <!-- <img src="img/_ (1).svg" alt="" style="position: relative; z-index: 9999; ; width: 70px; height: 32px; left: -30px; top: 310.2px;"> -->
                 </div>
             </div>
 
+            <section>
+              <div id="ask-form">
+                <h2 style="font-size: 24px;">У вас є запитання?</h2>
+                <p style="color: #333; font-size: 24px;">Якщо ви не знайшли потрібну інформацію, <br />
+                зв’яжіться зі своїм особистим менеджером, заповнивши форму нижче.</p>
+                <form action="#" method="post" id="contact_form">
+                  <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Ваше ім'я" name="name" id="name_input" required>
+                  </div>
+                  <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Ваш e-mail" name="email" id="email_input" required>
+                  </div>
+                  <div class="telephone">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Ваш номер" name="telephone" id="telephone_input" required>
+                  </div>
+                  <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="Коментар" id="message_input" cols="30" rows="5" required></textarea>
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Надіслати" id="form_button" />
+                  </div>
+                </form>
+              </div>
+            </section>
+
             <div class="consultation">
                 <div class="question-1">
-                    <p style="padding-top: 35px;">ЩЕ Є ЯКІсь <br> ЗАпИТАНнЯ?</p>
+                    <p style="padding-top: 35px;">ЩЕ Є ЯКІСЬ <br> ЗАПИТАННЯ?</p>
                     <span class="tn-1">Залишайте заявку для консультації, <br> щоб задати нам будь-які питання<br></span>
                     <button class="btn" style="padding: 15px;">Мені цікаво спробувати</button>
                 </div>
@@ -328,19 +343,19 @@
                 </div>
             </div>
 
-            
 
-            <div class="acor-container"> 
+
+            <div class="acor-container">
                 <div class="question" id="question">
-                   <h3 style="text-align: center;">ВІДПОВІДІ НА ЧАСТІ ЗАПИТАННЯ</h3> 
+                   <h3 style="text-align: center;">ВІДПОВІДІ НА ЧАСТІ ЗАПИТАННЯ</h3>
                 </div>
-    
+
                 <input type="radio" name="acor" id="acor1" />
                 <label for="acor1">Що таке "адаптаційний тиждень"?</label>
                 <div class="acor-body">
                     <span>Це спеціальна програма, яка допоможе легко адаптуватись вашій дитині до дитячого садочку.</span>
                 </div>
-                
+
                 <input type="radio" name="acor" id="acor2" />
                 <label for="acor2">Які потрібні документи для вступу?</label>
                 <div class="acor-body">
@@ -351,20 +366,20 @@
                         <li>копія карти щеплень</li>
                     </ul>
                 </div>
-                
+
                 <input type="radio" name="acor" id="acor3" />
                 <label for="acor3">Яка вартість садочку?</label>
                 <div class="acor-body">
                     <span>Вартість повного дня: 7 000 грн <br>
                        Міні садок: 5 000 грн <br>
                        Вартість адаптаційного тижня: 1999грн\тиж</span>
-                </div> 
+                </div>
 
                 <input type="radio" name="acor" id="acor4" />
                 <label for="acor4">Чи є майданчик?</label>
                 <div class="acor-body">
                     <span>Так, є закрита территорія з майданчиком</span>
-                </div> 
+                </div>
 
                 <input type="radio" name="acor" id="acor5" />
                 <label for="acor5">Чи візьмете ви дитину якщо?:</label>
@@ -375,25 +390,25 @@
                         <li>ще не їсть самостійно — так</li>
                         <li>не ходить самостійно — ні</li>
                     </ul>
-                </div> 
+                </div>
 
                 <input type="radio" name="acor" id="acor6" />
                 <label for="acor6">З якої дати починається набір?</label>
                 <div class="acor-body">
                     <span>Прийом проводиться цілий рік за наявності місця у групі відповідно до віку</span>
-                </div> 
+                </div>
 
                 <input type="radio" name="acor" id="acor7" />
                 <label for="acor7">Де знаходяться дитячі садочки і як туди добиратись?</label>
                 <div class="acor-body">
                     <span>1. Адреса: м. Львів, вул. Героїв Крут, 11б</span>
-                </div> 
+                </div>
             </div>
-            
-            
+
+
             <div class="contacts" id="contacts">
                 <div class="question">
-                    <h3 style="text-align: center;">КОНТАКТИ САДОЧКіВ LEVLEND</h3> 
+                    <h3 style="text-align: center;">КОНТАКТИ САДОЧКіВ LEVLEND</h3>
                  </div>
                 <div id="rec253454392"  data-animationappear="off" data-record-type="562">
                     <!-- t562 -->
@@ -403,69 +418,25 @@
                                 <ul>
                                     <li class="t562__name" field="title">Для зв'язку</li>
                                     <li class="t562__text" field="descr">
-                                        +38(068)588-77-55<br/>
-                                        leolandlviv@gmail.com<br/>
+                                        +38(000)000-00-00<br/>
+                                        leoland@gmail.com<br/>
                                     </li>
                                 </ul>
                             </div>
                             <div class="t562__col t-col t-col_3">
-                                <ul>
-                                    <li class="t562__name" field="title">Для зв'язку</li>
-                                    <li class="t562__text" field="descr">
-                                        +38(068)588-77-55<br/>
-                                        leolandlviv@gmail.com<br/>
-                                    </li>
-                                </ul>
+                              <ul class="social-media">
+                                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                                <li><a href="https://www.facebook.com">Facebook</a></li>
+                                <li><a href="https://www.youtube.com/">YouTube</a></li>
+                              </ul>
+                              <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2213.2275701041044!2d37.60560979510597!3d48.72485968113652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df96f6a9834d0d%3A0xe6fd1bc0adcb6c14!2z0LHRg9C7LiDQmtGA0LDQvNCw0YLQvtGA0YHQutC40LksIDIzLCDQmtGA0LDQvNCw0YLQvtGA0YHQuiwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgODQzMDA!5e0!3m2!1sru!2sua!4v1631536809394!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                              </div>
                             </div>
-                            <div class="t562__col t-col t-col_3">
-                                <ul>
-                                    <li class="t562__name" field="title">Для зв'язку</li>
-                                    <li class="t562__text" field="descr">
-                                        +38(068)588-77-55<br/>
-                                        leolandlviv@gmail.com<br/>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="t562__col t-col t-col_3">
-                                <ul>
-                                    <li class="t562__name" field="title">Для зв'язку</li>
-                                    <li class="t562__text" field="descr">
-                                        +38(068)588-77-55<br/>
-                                        leolandlviv@gmail.com<br/>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="container">  
-                        <div class="col-sm-4">
-                            <form action="telegram.php" method="POST">
-                                <legend>Заповніть заявку</legend>
-                                <span>Наш менеджер зв‘яжеться з Вами найближчим часом</span>
-              
-                                <div class="form-group">
-                                    <label for="">Ваше ім'я</label>
-                                    <input type="text" class="form-control" name="user_name" placeholder="Ваше ім'я">
-                                </div>
-              
-                                <div class="form-group">
-                                    <label for="">Ваш номер телефона</label>
-                                    <input type="text" class="form-control" name="user_phone" placeholder="+380 (00) 000 00 00">
-                                </div>
-              
-                                <div class="form-group">
-                                    <label for="">Ваш е-mail</label>
-                                    <input type="text" class="form-control" name="user_email" placeholder="mail@gmail.com">
-                                </div>
-              
-                                <button type="submit" class="btn btn-primary">Відправити</button>
-                            </form>
-                        </div>
-                </div>
-
-
-         
         </div>
             <!-- <div class="diploma">
                 <h3>Наші <br> сеРтифІкАти</h3>
@@ -473,7 +444,7 @@
                 <img src="img/diploma.png" alt="" style="position: relative; width: 300px; height: 462px; right: -800px;">
             </div> -->
 
-            
+
             <!-- <h3>що РоБЛЯТЬ ДітКи <br>
                 І які умоВи в сАДоЧкУ</h3> -->
 
@@ -482,7 +453,7 @@
                     <button class="tablinks" onclick="openTab(event, 'Conditions')">Условия</button>
                     <button class="tablinks" onclick="openTab(event, 'Сlasses')">Занятия</button>
                   </div>
-                  
+
                   <div id="Conditions" class="tabcontent">
                     <div class="slideshow-container">
 
@@ -491,32 +462,32 @@
                           <img src="img/ed1.jfif" style="width:560px; height: 560px;">
                           <div class="text">Caption Text</div>
                         </div>
-                        
+
                         <div class="mySlides fade">
                           <div class="numbertext">2 / 3</div>
                           <img src="img/ed2.jfif" style="width:560px; height: 560px;">
                           <div class="text">Caption Two</div>
                         </div>
-                        
+
                         <div class="mySlides fade">
                           <div class="numbertext">3 / 3</div>
                           <img src="img/ed3.jfif" style="width:560px; height: 560px;">
                           <div class="text">Caption Three</div>
                         </div>
-                        
+
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        
+
                         </div>
                         <br>
-                        
+
                         <div style="text-align:center">
-                          <span class="dot" onclick="currentSlide(1)"></span> 
-                          <span class="dot" onclick="currentSlide(2)"></span> 
-                          <span class="dot" onclick="currentSlide(3)"></span> 
+                          <span class="dot" onclick="currentSlide(1)"></span>
+                          <span class="dot" onclick="currentSlide(2)"></span>
+                          <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
                   </div>
-                  
+
                   <div id="Сlasses" class="tabcontent">
                     <div class="slideshow-container">
 
@@ -525,65 +496,51 @@
                           <img src="img/ed1.jfif" style="width:560px; height: 560px;">
                           <div class="text">Caption Text</div>
                         </div>
-                        
+
                         <div class="mySlides fade">
                           <div class="numbertext">2 / 3</div>
                           <img src="img/ed2.jfif" style="width:560px; height: 560px;">
                           <div class="text">Caption Two</div>
                         </div>
-                        
+
                         <div class="mySlides fade">
                           <div class="numbertext">3 / 3</div>
                           <img src="img/ed3.jfif" style="width:560px; height: 560px;">
                           <div class="text">Caption Three</div>
                         </div>
-                        
+
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        
+
                         </div>
                         <br>
-                        
+
                         <div style="text-align:center">
-                          <span class="dot" onclick="currentSlide(1)"></span> 
-                          <span class="dot" onclick="currentSlide(2)"></span> 
-                          <span class="dot" onclick="currentSlide(3)"></span> 
+                          <span class="dot" onclick="currentSlide(1)"></span>
+                          <span class="dot" onclick="currentSlide(2)"></span>
+                          <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
                   </div>
                   </div>-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
         </div>
- 
+
     </div>
- 
+
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script>
+    $(function() {
+        setTimeout(function() {
+            $('body').addClass('loader');
+        }, 3000)
+    })
+</script>
     <!-- <script>
         function openTab(evt, cityName) {
           var i, tabcontent, tablinks;
@@ -615,18 +572,18 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
         </script> -->
 </body>
- 
+
 </html>

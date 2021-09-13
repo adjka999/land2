@@ -284,7 +284,8 @@ a:hover {
     background: #ffffff;
     width: 100%;
     max-width: 250px;
-    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 35px;
     border-radius: 10px;
     display: inline-block;
@@ -378,56 +379,56 @@ a:hover {
         margin: 0;
     }
 } */
- 
+
 .kindergartener-1 {
-    background: url("../final/img/s1.jpg");
+    background: url("img/photo1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .kindergartener-2 {
-    background: url("../final/img/s2.jpg");
+    background: url("img/photo2.jpg");
     background-size: cover;
 }
- 
+
 .kindergartener-3 {
-    background: url("../final/img/s3.jpg");
+    background: url("img/photo3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .kindergartener-4 {
-    background: url("../final/img/s4.jpg");
+    background: url("img/photo4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .kindergartener-5 {
-    background: url("../final/img/s5.jpg");
+    background: url("img/photo5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .kindergartener-6 {
-    background: url("../final/img/s6.jpg");
+    background: url("img/photo6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .kindergartener-7 {
-    background: url("../final/img/s7.jpg");
+    background: url("img/photo7.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .kindergartener-8 {
-    background: url("../final/img/s8.jpg");
+    background: url("img/photo8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -442,7 +443,7 @@ a:hover {
     border-style: solid;
     height: 240px;
     width: 90%;
-    
+
 }
 
 .stem {
@@ -549,7 +550,7 @@ a:hover {
     align-items: center;
 
 
-    /* 
+    /*
     margin: 0 auto;
     border-width: 1px;
     border-radius: 100px;
@@ -581,7 +582,7 @@ a:hover {
     text-align: left;
     padding: 0;
 }
-    
+
 .yellow {
     position: absolute;
     left: 0;
@@ -606,7 +607,7 @@ a:hover {
     /* background-attachment: scroll; */
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1920px;
     line-height: 1.5;
 }
 
@@ -867,13 +868,131 @@ a:hover {
       display: inline-block;
   }
 
-  
+  .map {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+  }
+
+  #ask-form {
+      position: relative;
+      top: 500px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding: 30px 80px;
+      font-size: 12px;
+    }
+
+    form {
+      padding: 37.5px;
+      margin: 50px 0;
+    }
+
+
+    .underline {
+      border-bottom: solid 2px #474544;
+      margin: -0.512em auto;
+      width: 80px;
+    }
+
+    .icon_wrapper {
+      margin: 50px auto 0;
+      width: 100%;
+    }
+
+    .icon {
+      display: block;
+      fill: #474544;
+      height: 50px;
+      margin: 0 auto;
+      width: 50px;
+    }
+
+    .email {
+    	float: right;
+    	width: 45%;
+    }
+
+    input[type='text'], [type='email'], select, textarea {
+    	background: none;
+      border: none;
+    	border-bottom: solid 2px #474544;
+    	color: #474544;
+    	font-size: 1.000em;
+      font-weight: 400;
+      letter-spacing: 1px;
+    	margin: 0em 0 1.875em 0;
+    	padding: 0 0 0.875em 0;
+      text-transform: uppercase;
+    	width: 100%;
+    	box-sizing: border-box;
+    	transition: all 0.3s;
+    }
+
+    input[type='text']:focus, [type='email']:focus, textarea:focus {
+    	outline: none;
+    	padding: 0 0 0.875em 0;
+    }
+
+    .message {
+    	float: none;
+    }
+
+    .name {
+    	float: left;
+    	width: 45%;
+    }
+
+    select {
+      outline: none;
+    }
+
+    select::-ms-expand {
+      display: none;
+    }
+
+    .subject {
+      width: 100%;
+    }
+
+    .telephone {
+      width: 100%;
+    }
+
+    textarea {
+    	line-height: 150%;
+    	height: 150px;
+    	resize: none;
+      width: 100%;
+    }
+
+    #form_button {
+      background: none;
+      border: solid 2px #474544;
+      color: #474544;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 0.875em;
+      font-weight: bold;
+      outline: none;
+      padding: 20px 35px;
+      text-transform: uppercase;
+    	transition: all 0.3s;
+    }
+
+    #form_button:hover {
+      background: #474544;
+      color: #F2F3EB;
+    }
+
 
 
 .acor-container {
-    margin: 20px 0;
+    margin:0 auto;
     position: relative;
     top: 500px;
+    width: 1300px
 }
 .acor-container .acor-body {
     width: calc(100% - 40px);
@@ -956,7 +1075,7 @@ a:hover {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
   }
-  
+
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
@@ -968,17 +1087,17 @@ a:hover {
     transition: 0.3s;
     font-size: 17px;
   }
-  
+
   /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: #ddd;
   }
-  
+
   /* Create an active/current tablink class */
   .tab button.active {
     background-color: #ccc;
   }
-  
+
   /* Style the tab content */
   .tabcontent {
     display: none;
@@ -993,7 +1112,7 @@ a:hover {
     position: relative;
     margin:0 auto;
   }
-  
+
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
@@ -1009,18 +1128,18 @@ a:hover {
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-  
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-  
+
   /* Caption text */
   .text {
     color: #f2f2f2;
@@ -1031,7 +1150,7 @@ a:hover {
     width: 100%;
     text-align: center;
   }
-  
+
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
@@ -1040,7 +1159,7 @@ a:hover {
     position: absolute;
     top: 0;
   }
-  
+
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
@@ -1052,11 +1171,11 @@ a:hover {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
+
   .active, .dot:hover {
     background-color: #717171;
   }
-  
+
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -1064,17 +1183,17 @@ a:hover {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+
   @-webkit-keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
-  
+
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
   }
-  
+
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
@@ -1194,4 +1313,129 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+
+.container-d {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: white;
+    z-index: 100;
+}
+
+.preloader_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+    /* background-color: #e6ddc6 */
+    background:url('img/preloader.gif') no-repeat 50% 50%;
+    background-size: 200px;
+}
+
+.loader .preloader {
+    display: none;
 }

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>persons Card UI Design Inspiration - HTML & CSS | SoftAOX</title>
+<title>LevLand</title>
 <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600&display=swap" rel="stylesheet">
 <link rel='stylesheet' href='style.css'>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
  
 <body>
@@ -16,9 +17,9 @@
               <li><a href="#why-desc">чому ми</a></li>
               <li><a href="#education">заняття</a></li>
               <li><a href="#price">групи</a></li>
-              <li><a href="#">відгуки</a></li>
-              <li><a href="#">питання</a></li>
-              <li><a href="#">контакти</a></li>
+              <li><a href="#row">наші вчителі</a></li>
+              <li><a href="#question">питання</a></li>
+              <li><a href="#contacts">контакти</a></li>
               <li><button class="btn">Замовити дзвінок</button></li>
             </ul>
           </nav>
@@ -57,7 +58,7 @@
             <div class="desc">SТRЕАМ-освіта — новий інтеграційний підхід до розвитку, виховання й навчання дітей. <br> Цей напрям освіти інтегрує в собі завдання з формування в дітей загальних наукових <br> уявлень про світ; ознайомлення їх з інформаційно- комунікаційними технологіями; <br> розвиток уміння експериментувати, конструювати; навчання дітей основ <br> опрацювання змісту тексту, грамоти, математики, а також різних видів мистецтва. Тож <br> маємо в тісному взаємозв'язку розвивати здібності дошкільнят до точних та <br> гуманітарних наук.</div>
         </div>
         <h3 class="why">Чому батьки обирають нас?</h3>
-        <div class="why-desc">
+        <div class="why-desc" id="why-desc">
             <!-- <h3 class="why">Чому батьки обирають нас?</h3> -->
             <ul>
                 <li id="toy">Якісні іграшки</li>
@@ -83,7 +84,7 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" id="row">
  
                 <main role="main" class="person_list">
                     <div class="pt-8 pb-2 mb-3 border-bottom">
@@ -222,7 +223,7 @@
 
             </div>
             <p style="text-align: center;">ЯКІ ЗАНЯТТЯ <br> ПРОХОДЯТЬ ДІТКИ</p>
-            <div class="education">
+            <div class="education" id="education">
                 <ul>
                     <li>Англійська мова</li>
                     <li>Польська мова</li>
@@ -245,7 +246,7 @@
             <div>
                 <p style="text-align: center;">Наші Групи та Ціни</p>
             </div>
-            <div class="price">
+            <div class="price" id="price">
                 <div class="area-1">
                     <h4 style="font-size:24px;">Перші кроки</h4>
                     <img src="img/first.svg" alt="">
@@ -303,16 +304,176 @@
                     <p>Мама, тато йДемо <br> в LEVLAnD?</p>
                     <span class="tn-1">Залишайте заявку на адаптаційний* <br> тиждень у нашому садку. <br>
                         Вартість — 1999 грн</span>
-                        <button class="btn">Мені цікаво спробувати</button>
+                    <button class="btn" style="padding: 15px;">Мені цікаво спробувати</button>
                 </div>
                 <div class="girl">
                     <img src="img/photo.svg" alt="" style="width: 156px; height: 156px;">
                     <img src="img/girl.png" alt="" style="height: 523px; width: 371px; left: 192px; top: 129.9px;">
-                    <!-- <img src="img/circle.svg" alt="" style="width: 450px; bottom: 350px;"> -->
+                    <img src="img/circle.svg" alt="" style="width: 450px; bottom: 350px; left: 192px; top: 129.9px;" >
                     <img src="img/_ (1).svg" alt="" style="position: relative; z-index: 9999; ; width: 70px; height: 32px; left: -30px; top: 310.2px;">
                 </div>
             </div>
 
+            <div class="consultation">
+                <div class="question-1">
+                    <p style="padding-top: 35px;">ЩЕ Є ЯКІсь <br> ЗАпИТАНнЯ?</p>
+                    <span class="tn-1">Залишайте заявку для консультації, <br> щоб задати нам будь-які питання<br></span>
+                    <button class="btn" style="padding: 15px;">Мені цікаво спробувати</button>
+                </div>
+                <div class="girl">
+                    <img src="img/photo.svg" alt="" style="width: 156px; height: 156px; left: 192px;">
+                    <img src="img/talking-kid-foto_1.png" alt="" style="height: 462px; width: 562px; left: 192px; top: 129.9px; z-index: 5;">
+                    <img src="img/circle.svg" alt="" style="width: 450px; left: 192px; top: 129.9px; z-index: 2;">
+                    <!-- <img src="img/_ (1).svg" alt="" style="position: relative; z-index: 9999; ; width: 70px; height: 32px; left: -30px; top: 310.2px;"> -->
+                </div>
+            </div>
+
+            
+
+            <div class="acor-container"> 
+                <div class="question" id="question">
+                   <h3 style="text-align: center;">ВІДПОВІДІ НА ЧАСТІ ЗАПИТАННЯ</h3> 
+                </div>
+    
+                <input type="radio" name="acor" id="acor1" />
+                <label for="acor1">Що таке "адаптаційний тиждень"?</label>
+                <div class="acor-body">
+                    <span>Це спеціальна програма, яка допоможе легко адаптуватись вашій дитині до дитячого садочку.</span>
+                </div>
+                
+                <input type="radio" name="acor" id="acor2" />
+                <label for="acor2">Які потрібні документи для вступу?</label>
+                <div class="acor-body">
+                    <ul>
+                        <li>паспорт одного з батьків</li>
+                        <li>свідотство про нарождення дитини</li>
+                        <li>медична довідка (загальний стан здоров.я дитини)</li>
+                        <li>копія карти щеплень</li>
+                    </ul>
+                </div>
+                
+                <input type="radio" name="acor" id="acor3" />
+                <label for="acor3">Яка вартість садочку?</label>
+                <div class="acor-body">
+                    <span>Вартість повного дня: 7 000 грн <br>
+                       Міні садок: 5 000 грн <br>
+                       Вартість адаптаційного тижня: 1999грн\тиж</span>
+                </div> 
+
+                <input type="radio" name="acor" id="acor4" />
+                <label for="acor4">Чи є майданчик?</label>
+                <div class="acor-body">
+                    <span>Так, є закрита территорія з майданчиком</span>
+                </div> 
+
+                <input type="radio" name="acor" id="acor5" />
+                <label for="acor5">Чи візьмете ви дитину якщо?:</label>
+                <div class="acor-body">
+                    <ul>
+                        <li>в підгузках — так</li>
+                        <li>пустушка (соска) - так</li>
+                        <li>ще не їсть самостійно — так</li>
+                        <li>не ходить самостійно — ні</li>
+                    </ul>
+                </div> 
+
+                <input type="radio" name="acor" id="acor6" />
+                <label for="acor6">З якої дати починається набір?</label>
+                <div class="acor-body">
+                    <span>Прийом проводиться цілий рік за наявності місця у групі відповідно до віку</span>
+                </div> 
+
+                <input type="radio" name="acor" id="acor7" />
+                <label for="acor7">Де знаходяться дитячі садочки і як туди добиратись?</label>
+                <div class="acor-body">
+                    <span>1. Адреса: м. Львів, вул. Героїв Крут, 11б</span>
+                </div> 
+            </div>
+            
+            
+            <div class="contacts" id="contacts">
+                <div class="question">
+                    <h3 style="text-align: center;">КОНТАКТИ САДОЧКіВ LEVLEND</h3> 
+                 </div>
+                <div id="rec253454392"  data-animationappear="off" data-record-type="562">
+                    <!-- t562 -->
+                    <div class="t562">
+                        <div class="t-container">
+                            <div class="t562__col t-col t-col_3">
+                                <ul>
+                                    <li class="t562__name" field="title">Для зв'язку</li>
+                                    <li class="t562__text" field="descr">
+                                        +38(068)588-77-55<br/>
+                                        leolandlviv@gmail.com<br/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="t562__col t-col t-col_3">
+                                <ul>
+                                    <li class="t562__name" field="title">Для зв'язку</li>
+                                    <li class="t562__text" field="descr">
+                                        +38(068)588-77-55<br/>
+                                        leolandlviv@gmail.com<br/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="t562__col t-col t-col_3">
+                                <ul>
+                                    <li class="t562__name" field="title">Для зв'язку</li>
+                                    <li class="t562__text" field="descr">
+                                        +38(068)588-77-55<br/>
+                                        leolandlviv@gmail.com<br/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="t562__col t-col t-col_3">
+                                <ul>
+                                    <li class="t562__name" field="title">Для зв'язку</li>
+                                    <li class="t562__text" field="descr">
+                                        +38(068)588-77-55<br/>
+                                        leolandlviv@gmail.com<br/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">  
+                        <div class="col-sm-4">
+                            <form action="telegram.php" method="POST">
+                                <legend>Заповніть заявку</legend>
+                                <span>Наш менеджер зв‘яжеться з Вами найближчим часом</span>
+              
+                                <div class="form-group">
+                                    <label for="">Ваше ім'я</label>
+                                    <input type="text" class="form-control" name="user_name" placeholder="Ваше ім'я">
+                                </div>
+              
+                                <div class="form-group">
+                                    <label for="">Ваш номер телефона</label>
+                                    <input type="text" class="form-control" name="user_phone" placeholder="+380 (00) 000 00 00">
+                                </div>
+              
+                                <div class="form-group">
+                                    <label for="">Ваш е-mail</label>
+                                    <input type="text" class="form-control" name="user_email" placeholder="mail@gmail.com">
+                                </div>
+              
+                                <button type="submit" class="btn btn-primary">Відправити</button>
+                            </form>
+                        </div>
+                </div>
+
+
+         
+        </div>
+            <!-- <div class="diploma">
+                <h3>Наші <br> сеРтифІкАти</h3>
+                <span style="color: #181818; font-size: 18px;" >Пишаємось нашою командою</span>
+                <img src="img/diploma.png" alt="" style="position: relative; width: 300px; height: 462px; right: -800px;">
+            </div> -->
+
+            
             <!-- <h3>що РоБЛЯТЬ ДітКи <br>
                 І які умоВи в сАДоЧкУ</h3> -->
 
@@ -389,30 +550,7 @@
                           <span class="dot" onclick="currentSlide(3)"></span> 
                         </div>
                   </div>
-                  </div>
-
-                  
-            </div> -->
-            <div class="diploma">
-                <h3>Наші <br> сеРтифІкАти</h3>
-                <span style="color: #181818; font-size: 18px;" >Пишаємось нашою командою</span>
-                <img src="img/diploma.png" alt="" style="position: relative; width: 400px; height: 562px; left: 200px;">
-            </div>
-
-            <div class="consultation">
-                <div class="question-1">
-                    <p>Мама, тато йДемо <br> в LEVLAnD?</p>
-                    <span class="tn-1">Залишайте заявку на адаптаційний* <br> тиждень у нашому садку. <br>
-                        Вартість — 1999 грн</span>
-                        <button class="btn">Мені цікаво спробувати</button>
-                </div>
-                <div class="girl">
-                    <img src="img/photo.svg" alt="" style="width: 156px; height: 156px;">
-                    <img src="img/girl.png" alt="" style="height: 523px; width: 371px; left: 192px; top: 129.9px;">
-                    <!-- <img src="img/circle.svg" alt="" style="width: 450px; bottom: 350px;"> -->
-                    <img src="img/_ (1).svg" alt="" style="position: relative; z-index: 9999; ; width: 70px; height: 32px; left: -30px; top: 310.2px;">
-                </div>
-            </div>
+                  </div>-->
 
 
 
@@ -435,72 +573,17 @@
 
 
 
-            <!-- <div class="question">
-                ВІДПОВІДІ НА ЧАСТІ ЗАПИТАННЯ
-            </div>
-            <div class="acor-container"> 
-    
-                <input type="radio" name="acor" id="acor1" />
-                <label for="acor1">Що таке "адаптаційний тиждень"?</label>
-                <div class="acor-body">
-                    <span>Це спеціальна програма, яка допоможе легко адаптуватись вашій дитині до дитячого садочку.</span>
-                </div>
-                
-                <input type="radio" name="acor" id="acor2" />
-                <label for="acor2">Які потрібні документи для вступу?</label>
-                <div class="acor-body">
-                    <ul>
-                        <li>паспорт одного з батьків</li>
-                        <li>свідотство про нарождення дитини</li>
-                        <li>медична довідка (загальний стан здоров.я дитини)</li>
-                        <li>копія карти щеплень</li>
-                    </ul>
-                </div>
-                
-                <input type="radio" name="acor" id="acor3" />
-                <label for="acor3">Яка вартість садочку?</label>
-                <div class="acor-body">
-                    <p>Вартість повного дня: 7 000 грн <br>
-                       Міні садок: 5 000 грн <br>
-                       Вартість адаптаційного тижня: 1999грн\тиж</p>
-                </div> 
 
-                <input type="radio" name="acor" id="acor4" />
-                <label for="acor4">Чи є майданчик?</label>
-                <div class="acor-body">
-                    <p>Так, є закрита территорія з майданчиком</p>
-                </div> 
-
-                <input type="radio" name="acor" id="acor5" />
-                <label for="acor5">Чи візьмете ви дитину якщо?:</label>
-                <div class="acor-body">
-                    <ul>
-                        <li>в підгузках — так</li>
-                        <li>пустушка (соска) - так</li>
-                        <li>ще не їсть самостійно — так</li>
-                        <li>не ходить самостійно — ні</li>
-                    </ul>
-                </div> 
-
-                <input type="radio" name="acor" id="acor6" />
-                <label for="acor6">З якої дати починається набір?</label>
-                <div class="acor-body">
-                    <p>Прийом проводиться цілий рік за наявності місця у групі відповідно до віку</p>
-                </div> 
-
-                <input type="radio" name="acor" id="acor7" />
-                <label for="acor7">Де знаходяться дитячі садочки і як туди добиратись?</label>
-                <div class="acor-body">
-                    <p>1. Адреса: м. Львів, вул. Героїв Крут, 11б
-                        Перейдіть за цим посиланням, щоб переглянути розташування на мапі</p>
-                </div> 
-            </div> -->
+          
         </div>
  
     </div>
  
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- <script>
         function openTab(evt, cityName) {
           var i, tabcontent, tablinks;
